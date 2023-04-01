@@ -33,8 +33,7 @@ public class App {
 
         var diretorio = new File("stickers");
         diretorio.mkdir();
-        var diretorio2 = new File("stickers/aula2");
-        diretorio2.mkdir();
+        
 
         //Exibir e manipular os dados
         var sticker = new Sticker(); 
