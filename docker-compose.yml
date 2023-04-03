@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  aluraimersaojava2023march:
+    image: aluraimersaojava2023march
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 8080:8080
